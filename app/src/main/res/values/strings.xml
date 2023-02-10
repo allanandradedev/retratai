@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RetratAI</string>
+    <string name="logo_content_description">Logotipo do Retrataí</string>
+    <string name="enter">entrar</string>
+    <string name="register">registrar</string>
+    <string name="continue_with">ou continue com</string>
+    <string name="google_icon_content_description">Entrar com Google</string>
+    <string name="apple_icon_content_description">Entrar com Apple</string>
+    <string name="facebook_icon_content_description">Entrar com Facebook</string>
+    <string name="advance">Avançar</string>
+    <string name="back">Voltar</string>
+    <string name="you_described">Você Descreveu:</string>
+    <string name="powered_by_openai">Powered by OpenAI</string>
+    <string name="back_to_start">Voltar ao início</string>
+</resources>
