@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 object RetrofitBuilder {
     fun getRetrofit(): Retrofit {
         val client = OkHttpClient().newBuilder()
-            .addInterceptor(HeaderInterceptor(token = "Bearer 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"))
+            .addInterceptor(HeaderInterceptor(token = ""))
             .build()
 
         return Retrofit.Builder()
