@@ -1,10 +1,11 @@
-package com.example.retratai.ui
+package com.example.retratai.ui.home
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.example.retratai.databinding.ActivityHomeBinding
+import com.example.retratai.ui.form.FormActivity
 
 class HomeActivity : AppCompatActivity() {
 
@@ -29,7 +30,7 @@ class HomeActivity : AppCompatActivity() {
 
     private fun setUpFieldListeners() {
         enterButton.setOnClickListener {
-            intent = Intent(this, MainActivity::class.java)
+            intent = Intent(this, FormActivity::class.java)
             startActivity(intent)
             finish()
         }
